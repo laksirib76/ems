@@ -18,7 +18,7 @@ import java.security.PrivateKey;
 public class Events0016 {
     @Id
     @GeneratedValue(strategy = jakarta.persistence.GenerationType.IDENTITY)
-    private int Booking_ID;
+    private Long Booking_ID;
     @Column(name = "Event_ID")
     private Long  EventID;
     @Column(name = "Event_Owner_ID_No", nullable = false)
