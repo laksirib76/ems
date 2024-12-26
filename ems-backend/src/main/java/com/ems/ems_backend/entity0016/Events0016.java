@@ -5,9 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.boot.autoconfigure.web.WebProperties;
-
-import java.security.PrivateKey;
 @Getter
 @Setter
 @NoArgsConstructor
@@ -26,7 +23,7 @@ public class Events0016 {
     @Column(name = "Event_Type")
     private String EventType;
     @Column(name = "Event_Head_Count", nullable = false)
-    private int EventHeadCount;
+    private Long EventHeadCount;
     @Column(name = "Event_Duration", nullable = false)
     private int Duration;
 }

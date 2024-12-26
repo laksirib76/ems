@@ -1,6 +1,5 @@
 package com.ems.ems_backend.dto0016;
 
-import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,7 +14,7 @@ public class EventsDto0016 {
     private Long  EventID;
     private Long  EventOwnerIDNo;
     private String EventType;
-    private int EventHeadCount;
+    private Long EventHeadCount;
     private int Duration;
 
 }
