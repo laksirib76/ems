@@ -10,12 +10,12 @@ import lombok.Setter;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-
-public class Events0016Dto {
+public class EventsDto0016 {
     private Long Booking_ID;
     private Long  EventID;
     private Long  EventOwnerIDNo;
     private String EventType;
     private int EventHeadCount;
     private int Duration;
+
 }
